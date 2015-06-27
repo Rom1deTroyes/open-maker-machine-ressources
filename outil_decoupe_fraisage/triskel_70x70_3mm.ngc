@@ -1,3 +1,5 @@
+(decoupe d'un triskell 70x70 dans balsa 3mm - 1 passe)
+
 ;PYCAM-META-DATA: Filename: /files_svg/triskel_70.svg
 ;PYCAM-META-DATA: Timestamp: 2015-05-30 11:56:26.890803
 ;PYCAM-META-DATA: Version: 0.5.1
@@ -44,7 +46,7 @@ G0 Z10.0000
 M3 (start spindle)
 G04 P3 (wait for 3 seconds)
  X54.9712 Y18.1649
-G1 Z0.0000
+G1 Z-4.0 F2
  X55.0372 Y18.2771
  X55.1204 Y18.3847
  X55.2156 Y18.4819
